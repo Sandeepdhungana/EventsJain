@@ -1,0 +1,12 @@
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+    background: #fafafa;
+}
+
+.navbar__logo > img {
+    height:2.5rem;
+    cursor:pointer;
+}

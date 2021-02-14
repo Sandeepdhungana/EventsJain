@@ -1,0 +1,26 @@
+.cards {
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    display: flex;
+    width:20%;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    padding: 1rem;
+}
+.cards__avatar > img {
+    padding: 0.5rem;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.cards__details {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.cards__details > p {
+    text-align: justify;
+}
